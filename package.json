@@ -5,16 +5,22 @@
   "main": "index.js",
   "scripts": {
     "dev": "react-scripts start",
+    "build": "react-scripts build",
     "deploy": "vercel --prod"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@react-three/drei": "^9.84.1",
+    "@react-three/fiber": "^8.14.2",
+    "@types/three": "^0.156.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "three": "^0.156.1",
+    "vercel": "^32.2.5"
   },
   "browserslist": {
     "production": [
