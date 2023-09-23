@@ -7,12 +7,13 @@ const App =()=>{
         <>
         <info/> 
         <Canvas
-            camera = {{position:[0,0,5]}}
+            camera = {{position:[0,0,8]}}
         >
             <Experience/>
 
             </Canvas>
         </>
+    
     )
 }
 export default App;
